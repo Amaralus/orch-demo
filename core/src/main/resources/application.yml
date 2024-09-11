@@ -1,0 +1,10 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: orch-demo
+
+camel:
+  springboot:
+    main-run-controller: true
