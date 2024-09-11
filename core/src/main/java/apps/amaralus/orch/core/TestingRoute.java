@@ -1,4 +1,4 @@
-package orchdemo;
+package apps.amaralus.orch.core;
 
 import org.apache.camel.Message;
 import org.apache.camel.builder.RouteBuilder;

@@ -2,6 +2,7 @@ spring:
   application:
     name: orch-demo
 
+
 camel:
   rest:
     component: netty-http
@@ -9,3 +10,8 @@ camel:
     port: 9090
   springboot:
     main-run-controller: true
+
+seda:
+  endpointsThreads:
+    init-route: 2
+    handle-route: 5
