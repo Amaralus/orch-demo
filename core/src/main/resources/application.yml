@@ -1,10 +1,11 @@
-server:
-  port: 9090
-
 spring:
   application:
     name: orch-demo
 
 camel:
+  rest:
+    component: netty-http
+    host: 0.0.0.0
+    port: 9090
   springboot:
     main-run-controller: true
