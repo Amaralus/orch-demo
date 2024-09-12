@@ -11,6 +11,7 @@
 
     <modules>
         <module>core</module>
+        <module>mad-stub</module>
     </modules>
 
     <properties>
