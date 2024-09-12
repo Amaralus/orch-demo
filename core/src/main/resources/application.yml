@@ -12,6 +12,7 @@ camel:
     main-run-controller: true
 
 seda:
+#  тонкая настройка потоков для каждого этапа
   endpointsThreads:
     init-route: 2
     handle-route: 5
