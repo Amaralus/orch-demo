@@ -1,17 +1,17 @@
 package apps.amaralus.orch.core.init;
 
-import apps.amaralus.orch.core.Route;
-import apps.amaralus.orch.core.RouteContextProvider;
 import apps.amaralus.orch.core.init.model.ProcessRequest;
 import apps.amaralus.orch.core.init.model.ProcessResponse;
+import apps.amaralus.orch.core.route.Route;
+import apps.amaralus.orch.core.route.RouteContextProvider;
 import lombok.RequiredArgsConstructor;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-import static apps.amaralus.orch.core.RouteStatus.CREATED;
-import static apps.amaralus.orch.core.RouteStatus.SUSPENDED;
 import static apps.amaralus.orch.core.common.BasePath.HANDLE_ROUTE;
 import static apps.amaralus.orch.core.common.BasePath.INIT_ROUTE;
+import static apps.amaralus.orch.core.route.RouteStatus.CREATED;
+import static apps.amaralus.orch.core.route.RouteStatus.SUSPENDED;
 
 @Component
 @RequiredArgsConstructor

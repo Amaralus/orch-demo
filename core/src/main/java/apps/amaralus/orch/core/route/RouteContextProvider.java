@@ -1,4 +1,4 @@
-package apps.amaralus.orch.core;
+package apps.amaralus.orch.core.route;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

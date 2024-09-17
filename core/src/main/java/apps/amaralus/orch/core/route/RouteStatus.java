@@ -1,4 +1,4 @@
-package apps.amaralus.orch.core;
+package apps.amaralus.orch.core.route;
 
 public enum RouteStatus {
     CREATED,

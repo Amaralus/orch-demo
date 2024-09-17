@@ -1,6 +1,6 @@
 package apps.amaralus.orch.core.init.model;
 
-import apps.amaralus.orch.core.RouteStatus;
+import apps.amaralus.orch.core.route.RouteStatus;
 
 import java.util.UUID;
 

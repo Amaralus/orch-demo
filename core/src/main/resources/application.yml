@@ -1,6 +1,10 @@
 spring:
   application:
     name: orch-demo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orch_demo?currentSchema=orch_demo
+    username: postgres
+    password: postgres
 
 
 camel:

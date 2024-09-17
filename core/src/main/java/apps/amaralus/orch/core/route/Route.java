@@ -1,10 +1,10 @@
-package apps.amaralus.orch.core;
+package apps.amaralus.orch.core.route;
 
 import lombok.Data;
 
 import java.util.UUID;
 
-import static apps.amaralus.orch.core.RouteStatus.CREATED;
+import static apps.amaralus.orch.core.route.RouteStatus.CREATED;
 
 @Data
 public class Route {
